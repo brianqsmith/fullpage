@@ -36,7 +36,7 @@ threading.Thread(target=server.serve_forever,daemon=True).start()
 m.call('Marionette:SetContext',{'value':'content'})
 m.call('WebDriver:SwitchToWindow',{'handle':m.call('WebDriver:GetWindowHandles')[0]})
 m.call('Marionette:SetContext',{'value':'chrome'})
-base=m.js("return WebExtensionPolicy.getByID('fullpage@local.extension').getURL('settings.html')")['value']
+base=m.js("return WebExtensionPolicy.getByID('fullpage@brianqsmith.github.io').getURL('settings.html')")['value']
 m.call('Marionette:SetContext',{'value':'content'})
 m.call('WebDriver:Navigate',{'url':base})
 m.js("return window.wrappedJSObject.browser.storage.local.clear()")
@@ -44,7 +44,7 @@ m.call('WebDriver:Navigate',{'url':'http://127.0.0.1:8844/'})
 m.js('window.scrollTo(0,320)')
 m.call('Marionette:SetContext',{'value':'chrome'})
 
-m.js("var e=WebExtensionPolicy.getByID('fullpage@local.extension').extension; var w=Services.wm.getMostRecentWindow('navigator:browser'); e.tabManager.addActiveTabPermission(w.gBrowser.selectedTab);")
+m.js("var e=WebExtensionPolicy.getByID('fullpage@brianqsmith.github.io').extension; var w=Services.wm.getMostRecentWindow('navigator:browser'); e.tabManager.addActiveTabPermission(w.gBrowser.selectedTab);")
 source_handle=m.call('WebDriver:GetWindowHandles')[0]
 new=m.call('WebDriver:NewWindow',{'type':'window'})
 progress_handle=new.get('value',new)['handle']

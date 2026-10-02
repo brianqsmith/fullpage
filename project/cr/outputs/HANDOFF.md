@@ -2,7 +2,7 @@
 
 ## Current release
 
-Version **1.4.0**, Firefox desktop 140+, Manifest V3. Package: `fullpage-1.4.0.zip`. Editable source: `fullpage/`. ID: `fullpage@local.extension`. Based on 1.3.1; withdrawn 1.3.2/1.3.3 were not used. The user-provided replacement shutter sound is retained unchanged.
+Version **1.4.0**, Firefox desktop 140+, Manifest V3. Package: `fullpage-1.4.0.zip`. Editable source: `fullpage/`. ID: `fullpage@brianqsmith.github.io`. Based on 1.3.1; withdrawn 1.3.2/1.3.3 were not used. The user-provided replacement shutter sound is retained unchanged.
 
 ## Architecture
 

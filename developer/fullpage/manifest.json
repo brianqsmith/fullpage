@@ -5,7 +5,7 @@
   "description": "Capture a whole page and save it locally as PNG, JPEG, or a single-page PDF.",
   "browser_specific_settings": {
     "gecko": {
-      "id": "fullpage@local.extension",
+      "id": "fullpage@brianqsmith.github.io",
       "strict_min_version": "140.0",
       "data_collection_permissions": {
         "required": [

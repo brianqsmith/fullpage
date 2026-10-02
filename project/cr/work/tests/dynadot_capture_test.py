@@ -33,8 +33,8 @@ m.call('WebDriver:Navigate', {'url': URL})
 m.call('Marionette:SetContext', {'value': 'content'})
 print('page dimensions', m.js('return {scrollY, innerHeight, body: document.body.scrollHeight, root: document.documentElement.scrollHeight}'), flush=True)
 m.call('Marionette:SetContext', {'value': 'chrome'})
-m.js("var extension=WebExtensionPolicy.getByID('fullpage@local.extension').extension; var window=Services.wm.getMostRecentWindow('navigator:browser'); extension.tabManager.addActiveTabPermission(window.gBrowser.selectedTab);")
-settings_url = m.js("return WebExtensionPolicy.getByID('fullpage@local.extension').getURL('settings.html')")['value']
+m.js("var extension=WebExtensionPolicy.getByID('fullpage@brianqsmith.github.io').extension; var window=Services.wm.getMostRecentWindow('navigator:browser'); extension.tabManager.addActiveTabPermission(window.gBrowser.selectedTab);")
+settings_url = m.js("return WebExtensionPolicy.getByID('fullpage@brianqsmith.github.io').getURL('settings.html')")['value']
 source_handle = m.call('WebDriver:GetWindowHandle')['value']
 new_window = m.call('WebDriver:NewWindow', {'type': 'window'})
 progress_handle = new_window.get('value', new_window)['handle']

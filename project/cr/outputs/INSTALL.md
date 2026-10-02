@@ -8,7 +8,7 @@ A local Firefox desktop extension for capturing complete pages as PNG, JPEG, or 
 2. Choose **Load Temporary Add-on…** and select `fullpage/manifest.json` or `fullpage-1.4.0.zip`.
 3. Pin **fullpage** to the toolbar and click its camera icon on the page you want to capture.
 
-If you already loaded the editable `fullpage` folder, click **Reload** next to it. The extension ID remains `fullpage@local.extension`; existing settings are retained. Temporary installations are removed when Firefox restarts.
+If you already loaded the editable `fullpage` folder, click **Reload** next to it. The extension ID remains `fullpage@brianqsmith.github.io`; existing settings are retained. Temporary installations are removed when Firefox restarts.
 
 ## Capture behavior
 

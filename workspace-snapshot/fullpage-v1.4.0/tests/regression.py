@@ -30,7 +30,7 @@ with zipfile.ZipFile(package,'w',zipfile.ZIP_DEFLATED) as z:
  for p in (ROOT/'fullpage').rglob('*'):
   if p.is_file():z.write(p,p.relative_to(ROOT/'fullpage'))
 print('install',m.call('Addon:Install',{'path':str(package),'temporary':True}),flush=True)
-base=m.js("return WebExtensionPolicy.getByID('fullpage@local.extension').getURL('settings.html')")
+base=m.js("return WebExtensionPolicy.getByID('fullpage@brianqsmith.github.io').getURL('settings.html')")
 m.context('content');m.call('WebDriver:SetWindowRect',{'width':1100,'height':720})
 source=m.call('WebDriver:GetWindowHandle')['value']
 new=m.call('WebDriver:NewWindow',{'type':'window'});control=new.get('value',new)['handle']
@@ -46,9 +46,9 @@ for path in sys.argv[1:] or ['/tall','/sticky','/panel','/frame','/nested','/wid
  url='https://forsale.dynadot.com/definitelynotlevis.com?drefid=2071' if path=='dynadot' else 'http://127.0.0.1:8851'+path
  m.call('WebDriver:SwitchToWindow',{'handle':source});m.call('WebDriver:Navigate',{'url':url});time.sleep(.3)
  original=m.js("window.scrollTo(0,110); const p=document.querySelector('#panel');if(p)p.scrollTop=90;return {y:scrollY,style:document.documentElement.getAttribute('style'),panel:p?.scrollTop,height:document.documentElement.scrollHeight}")
- m.context('chrome');m.js("var e=WebExtensionPolicy.getByID('fullpage@local.extension').extension;var w=Services.wm.getMostRecentWindow('navigator:browser');e.tabManager.addActiveTabPermission(w.gBrowser.selectedTab);")
+ m.context('chrome');m.js("var e=WebExtensionPolicy.getByID('fullpage@brianqsmith.github.io').extension;var w=Services.wm.getMostRecentWindow('navigator:browser');e.tabManager.addActiveTabPermission(w.gBrowser.selectedTab);")
  if granted:
-  m.js("var {ExtensionPermissions}=ChromeUtils.importESModule('resource://gre/modules/ExtensionPermissions.sys.mjs');return ExtensionPermissions.add('fullpage@local.extension',{origins:['http://localhost:8851/*'],permissions:[]},WebExtensionPolicy.getByID('fullpage@local.extension').extension)")
+  m.js("var {ExtensionPermissions}=ChromeUtils.importESModule('resource://gre/modules/ExtensionPermissions.sys.mjs');return ExtensionPermissions.add('fullpage@brianqsmith.github.io',{origins:['http://localhost:8851/*'],permissions:[]},WebExtensionPolicy.getByID('fullpage@brianqsmith.github.io').extension)")
  m.context('content');m.call('WebDriver:SwitchToWindow',{'handle':control})
  m.js('return window.wrappedJSObject.browser.storage.local.set({format:'+json.dumps(fmt)+'})')
  tabid=m.js('return window.wrappedJSObject.browser.tabs.query({}).then(t=>t.find(t=>t.url==='+json.dumps(url)+')?.id)')

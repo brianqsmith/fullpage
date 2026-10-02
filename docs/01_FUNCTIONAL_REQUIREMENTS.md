@@ -12,7 +12,7 @@ Requirement identifiers remain stable for discussion and acceptance testing. Sta
 
 **FR 001 Current — Local capture.** The extension shall capture the current selected page only after the user opens its toolbar popup. It shall save PNG, JPEG or one long-page PDF locally. It shall not upload page data, create an account, contact a capture service, or keep an application capture history.
 
-**FR 002 Current — Supported installation.** The add-on identity is `fullpage@local.extension`; the toolbar name is `fullpage`. The release version is 1.4.0. The desktop minimum is Firefox 140. The manifest also declares Android 142 metadata, but this is not a tested Android product commitment. Chrome and Safari are outside the validated baseline.
+**FR 002 Current — Supported installation.** The add-on identity is `fullpage@brianqsmith.github.io`; the toolbar name is `fullpage`. The release version is 1.4.0. The desktop minimum is Firefox 140. The manifest also declares Android 142 metadata, but this is not a tested Android product commitment. Chrome and Safari are outside the validated baseline.
 
 **FR 003 Current — Screens.** The extension has a 320 by 224 CSS pixel toolbar progress popup and a full-tab Settings page. Native Firefox permission prompts, Save As, Downloads and add-on management are browser-owned surfaces. There is no list page, image editor, preview gallery, crop tool, history view, onboarding wizard or in-app help screen.
 

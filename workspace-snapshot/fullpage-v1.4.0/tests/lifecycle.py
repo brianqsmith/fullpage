@@ -14,15 +14,15 @@ for handle in handles:
   m.call('WebDriver:SwitchToWindow',{'handle':handle});m.call('WebDriver:CloseWindow')
 m.call('WebDriver:SwitchToWindow',{'handle':source});m.call('WebDriver:Navigate',{'url':'http://127.0.0.1:8852/'})
 m.js("document.querySelector('#panel').scrollTop=123")
-m.context('chrome');base=m.js("return WebExtensionPolicy.getByID('fullpage@local.extension').getURL('settings.html')")
-m.js("var e=WebExtensionPolicy.getByID('fullpage@local.extension').extension;var w=Services.wm.getMostRecentWindow('navigator:browser');e.tabManager.addActiveTabPermission(w.gBrowser.selectedTab);")
+m.context('chrome');base=m.js("return WebExtensionPolicy.getByID('fullpage@brianqsmith.github.io').getURL('settings.html')")
+m.js("var e=WebExtensionPolicy.getByID('fullpage@brianqsmith.github.io').extension;var w=Services.wm.getMostRecentWindow('navigator:browser');e.tabManager.addActiveTabPermission(w.gBrowser.selectedTab);")
 m.context('content');new=m.call('WebDriver:NewWindow',{'type':'window'});control=new.get('value',new)['handle'];m.call('WebDriver:SwitchToWindow',{'handle':control});m.call('WebDriver:Navigate',{'url':base})
 m.js("return window.wrappedJSObject.browser.storage.local.set({pause:1000,format:'png',playSound:false})")
 tab=m.js("return window.wrappedJSObject.browser.tabs.query({}).then(t=>t.find(t=>t.url==='http://127.0.0.1:8852/')?.id)")
 m.js('return window.wrappedJSObject.browser.runtime.sendMessage({type:"begin",tabId:'+str(tab)+'})')
 m.call('WebDriver:CloseWindow');m.call('WebDriver:SwitchToWindow',{'handle':source})
 time.sleep(5)
-m.context('chrome');running=m.js("return WebExtensionPolicy.getByID('fullpage@local.extension').extension.backgroundState")
+m.context('chrome');running=m.js("return WebExtensionPolicy.getByID('fullpage@brianqsmith.github.io').extension.backgroundState")
 print('background with all extension views closed:',running,flush=True);assert running=='running'
 m.context('content');new=m.call('WebDriver:NewWindow',{'type':'window'});control=new.get('value',new)['handle'];m.call('WebDriver:SwitchToWindow',{'handle':control});m.call('WebDriver:Navigate',{'url':base})
 m.js('return window.wrappedJSObject.browser.runtime.sendMessage({type:"stop"})')
@@ -34,10 +34,10 @@ assert state['phase']=='stopped',state
 m.call('WebDriver:CloseWindow');m.call('WebDriver:SwitchToWindow',{'handle':source})
 restored=m.js("return {scroll:document.querySelector('#panel').scrollTop,style:document.querySelector('#panel').getAttribute('style'),header:document.querySelector('header').getAttribute('style')}")
 assert restored=={'scroll':123,'style':None,'header':None},restored
-time.sleep(5);m.context('chrome');idle=m.js("return WebExtensionPolicy.getByID('fullpage@local.extension').extension.backgroundState");print('background after cancellation:',idle,flush=True)
+time.sleep(5);m.context('chrome');idle=m.js("return WebExtensionPolicy.getByID('fullpage@brianqsmith.github.io').extension.backgroundState");print('background after cancellation:',idle,flush=True)
 # Explicitly terminate the idle event page, then wake it through messaging.
 # This tests state recovery even when Firefox's normal idle timer is longer.
-m.js("return WebExtensionPolicy.getByID('fullpage@local.extension').extension.terminateBackground()")
+m.js("return WebExtensionPolicy.getByID('fullpage@brianqsmith.github.io').extension.terminateBackground()")
 m.context('content');new=m.call('WebDriver:NewWindow',{'type':'window'});control=new.get('value',new)['handle'];m.call('WebDriver:SwitchToWindow',{'handle':control});m.call('WebDriver:Navigate',{'url':base})
 state=m.js('return window.wrappedJSObject.browser.runtime.sendMessage({type:"get-progress"})');assert state['phase']=='stopped' and not state['busy'],state
 print('cancel/restore and event-page state recovery passed',flush=True)

@@ -7,7 +7,7 @@ The working release is **1.3.1**.
 - Packaged add-on: `fullpage-1.3.1.zip`
 - Editable source: `fullpage/`
 - Installation and personal-signing guide: `INSTALL.md`
-- Firefox extension ID: `fullpage@local.extension`
+- Firefox extension ID: `fullpage@brianqsmith.github.io`
 - Firefox manifest format: Manifest V2, for Firefox 126+ desktop
 
 Versions 1.3.2 and 1.3.3 were removed at the owner's request. Do not use them as a base for future work.
