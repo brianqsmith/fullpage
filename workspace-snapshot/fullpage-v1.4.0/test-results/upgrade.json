@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "version": "1.4.0",
+  "settingsPreserved": {
+    "format": "jpeg",
+    "nameParts": "both",
+    "nameOrder": "screenshot-first",
+    "playSound": false,
+    "pause": 321,
+    "autoClose": "after-2s"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "firefox": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "profile": "./test-profile",
+  "port": 2831,
+  "headless": true,
+  "downloads": "./test-downloads"
+}

@@ -1,0 +1,55 @@
+{
+  "manifest_version": 3,
+  "name": "fullpage",
+  "version": "1.4.0",
+  "description": "Capture a whole page and save it locally as PNG, JPEG, or a single-page PDF.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "fullpage@local.extension",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    },
+    "gecko_android": {
+      "strict_min_version": "142.0"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "storage",
+    "menus",
+    "scripting"
+  ],
+  "background": {
+    "scripts": [
+      "common.js",
+      "pdf.js",
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "icons": {
+    "48": "icons/camera.svg",
+    "96": "icons/camera.svg"
+  },
+  "options_ui": {
+    "page": "settings.html",
+    "open_in_tab": true
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'"
+  },
+  "optional_host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "action": {
+    "default_title": "fullpage \u2014 capture entire page",
+    "default_icon": "icons/camera.svg",
+    "default_popup": "progress.html"
+  }
+}

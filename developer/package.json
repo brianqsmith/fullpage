@@ -1,0 +1,18 @@
+{
+  "name": "fullpage-development",
+  "version": "1.4.0",
+  "private": true,
+  "description": "Development tooling only; not shipped in extension ZIP",
+  "scripts": {
+    "check": "node scripts/check.cjs",
+    "test": "node tests/settings.cjs && node tests/progress_states.cjs",
+    "lint": "web-ext lint --source-dir fullpage",
+    "package": "python3 scripts/package.py"
+  },
+  "devDependencies": {
+    "web-ext": "10.6.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

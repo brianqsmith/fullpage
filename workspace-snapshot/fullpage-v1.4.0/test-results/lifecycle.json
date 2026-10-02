@@ -1,0 +1,20 @@
+{
+  "runningWithoutPopup": "running",
+  "afterCancel": "running",
+  "restored": {
+    "scroll": 123,
+    "style": null,
+    "header": null
+  },
+  "recovered": {
+    "phase": "stopped",
+    "title": "Capture stopped",
+    "detail": "No completed capture was saved.",
+    "percent": 0,
+    "count": "",
+    "dimensions": "1100 \u00d7 4040 px",
+    "autoClose": "never",
+    "origins": [],
+    "busy": false
+  }
+}

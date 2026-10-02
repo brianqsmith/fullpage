@@ -1,0 +1,165 @@
+package_path,size_bytes,sha256,original_location,relation
+README.md,3893,7d3be3bbfff03b0b7928c644719c3f4d9c8acc5b948d6680302cc50facca7cd1,,included
+design/preview.html,29434,00d9e730dc154832da0e8dc1e955f0249a5753ddbbdc9a6c369eb0c36ab62b9e,,included
+design/wireframes.svg,1425,e11979cb218f862fb0feb610989f3cc66d24cf484f5b1beba3e6af531cf6339b,,included
+developer/.gitignore,130,015f68b2ff9bb69dedaf63127b22c9408fabd47c4a6b56e05aae3c503506fafd,,included
+developer/dist/fullpage-1.4.0.zip,36861,0b4c508f173a806b0da13586cd0a86bff87fcca8cb47261645f574188b4179cd,,included
+developer/fullpage/background.js,11678,c7ce53dffac43fc8db0def4701bb7706491035853cda5dcf555623a4ea08d908,,included
+developer/fullpage/capture.js,9257,9fc439416280950f3334b6b0495ea7de692d2b2a97a6dedda968ab5fcd449c22,,included
+developer/fullpage/common.js,2296,a99e3ec3f85cb37f5d148abd91c363297661cd8f0073390aec750e4f1080a6e6,,included
+developer/fullpage/icons/camera.svg,267,e3b5a226e99defec1f2d9139dcdaac398343372c8bcb87f164186387d4ec0023,,included
+developer/fullpage/manifest.json,1178,946c4f041799f70389c439aae2f047c72daf640b6629a47a0c5e8a204d962149,,included
+developer/fullpage/pdf.js,1689,c42ab8135664aae4c87c5280b610419f227d3997a3a71cce77aef83336dc126d,,included
+developer/fullpage/progress.html,1031,89b13f08aaf414920a3564966c07de55caf84d4c483bd92d8a075b9dbe3d38de,,included
+developer/fullpage/progress.js,3011,f096a4adf076c75ecdf1285b89671bb76602635ec95633c779fe2f87355c721c,,included
+developer/fullpage/settings.html,3496,b10831edf22662a975447daa687403b7e93307b46134e57150b17aae26af6fbf,,included
+developer/fullpage/settings.js,1621,bf7fb507b65ea6eff7db2e6be6c99eb09523eb3c1530ef7869ceeebce29bc0bf,,included
+developer/fullpage/sounds/shutter.mp3,21504,5941712f82d92fb711e9b1249e086a9b6ea2d879e87d7803f9f981479f111ef8,,included
+developer/fullpage/style.css,5537,61a9c154bf20976ffa0982668f4986507b891c183f1f2ab6ec101388f40b4e7b,,included
+developer/package.json,470,8613815c500e254b6623429aae5a1577df2014df39f53d2d76b3e6e3e02acbfe,,included
+developer/pnpm-lock.yaml,76843,fa71d5f53e174537230cf4e094860bffb46fc6eb753fb5db6affa8e9c6f5210a,,included
+developer/requirements-docs.txt,19,deedabb4d330d1bf0a213c0bc594ad765f91248be7e7ed0d3cae8f8a80286db5,,included
+developer/requirements-test.txt,29,5333b970513579d8649015a92676065be1627fedfa48b28662d8d2563af740c0,,included
+developer/scripts/check.cjs,911,f3c806a39f514c62aff785b9a2604c89e5c493015a1c6085cd1331c4132f466e,,included
+developer/scripts/package.py,1328,1cade18756c86eb6b9b422df1edf080b0e04e7ae8e57a7da8f8b6a9355457ea0,,included
+developer/scripts/run_browser_tests.py,2618,8476f653118dbe631bf2751cd98027c1b0915818d26a6e8107db4f60f7097173,,included
+developer/test-config.example.json,170,4f903986a7ba951216a25b398d3beedea6641e710c7cae666ff6da57e3afe6ff,,included
+developer/tests/lifecycle.py,4308,c4e8177bd2af83a9dbd2464944e09fdaf92e8f6e24f046ec46c2b0aacaade9f6,,included
+developer/tests/marionette.py,1167,30e2d7286e8994a041ed3e2c5c3ff1c659d1abdf2b0156d2d7971584c40c33c6,,included
+developer/tests/progress_states.cjs,1653,0ebe040b33354245ac38732ba5e065725d8b86dac92ba2626590a586ffed71b9,,included
+developer/tests/regression.py,7281,3d059c6d539e31d7e793a4f39158b0a7b69c6f35e1916c1a62b996ea3fe6d1a9,,included
+developer/tests/settings.cjs,1389,db766327e7103c7572bbde05f6ad1501dcb993339f430c658021cb6f8ecf26db,,included
+developer/tests/upgrade.py,1726,cda0a0a73a835b422422ca0da4370645bdc0ffbbaeaef6cc74bfd6b23ccc8c8a,,included
+distribution/fullpage-1.4.0-source.zip,115697,9480611cdbd2bc6b5b7f07d1c62a0281577657676aab4c1c826c35453dfee23d,,included
+docs/01_FUNCTIONAL_REQUIREMENTS.docx,46266,b914ea58ae82c4d94372ac70f75295134b8cd297e1389009e6196873ea31c9e1,,included
+docs/01_FUNCTIONAL_REQUIREMENTS.md,19644,fb3246ae3aa6d704814dce9ec4f560e42dd00406f6c86187427ee664461bda26,,included
+docs/02_FEATURE_INVENTORY.md,5917,eb3a31456d59c999394dd6259fd893149d65949351e5e6a4079d91b9872f76a7,,included
+docs/03_ARCHITECTURE.md,5778,360da1680e4309aa5dab9204aac54707741c5efaab4aff15377bd96027708d2f,,included
+docs/04_STORAGE_STATE.md,6535,d7ebf1b22fcf2be673654ab158475ca27a61bd856efd4d85d54bf9f69a000817,,included
+docs/05_MESSAGING.md,7324,6f556b1be9b4cf0f66189f09e115691b02f9e31c89818323fb6de455905237ee,,included
+docs/06_APIS_PERMISSIONS.md,5431,2e57382e32e670c1ed4decb0c5b13ff76a595fa781275160373c880236afcbb6,,included
+docs/07_DEVELOPMENT.md,5659,60335645dc1aa8364c7113c11f59d9564349074df534642c8f49c120e9f94473,,included
+docs/08_AUDIT.md,7975,57640b8dbd9734bb2251074be2cf28bfbe8c2b52cd90c3a8780dae8ad5da7a35,,included
+docs/09_ACCEPTANCE_TESTS.md,6721,b18d17781964ef89d35aa3a48f5b8bc6201394fe9552545a932da8dba8271d43,,included
+docs/10_DESIGN_ASSETS.md,2300,e07025c90eb276e5e9c33e93eb264719ee2389ff23fdce692bc24d0016852d2d,,included
+docs/11_CONFIG_SECURITY.md,3743,35d4130031f7c3367ad4edda774f006a6aa899be32479c0d89df514abcba93d0,,included
+docs/12_RELEASE_HISTORY.md,1796,b9f23ff7d888a2243f400c9fc7f64cb8e272192273e58cd51cf23c98ebe741f5,,included
+docs/13_TRANSFER_CHECKLIST.md,1408,3019451b77f9fb48b625fedc09a659bda8a7eec68c3f6752d6d43a8338aa24f6,,included
+docs/VALIDATION_THIS_HANDOFF.md,1555,da4239e44efbf9d5aa52da47df68fa0ade2314f157d022a9e31677782c144f48,,included
+docs/acceptance-results-template.csv,1120,2c50871b4196d54d19a9c1a1a932332b7f2c94b7f6056a37e8071f8c6bb156d7,,included
+docs/validator-result.json,374,b6f34a17256cb6ebc27141a18bcfd5126a438082f89fc768959f3b28feb625fe,,included
+inventory/COVERAGE.md,2258,0a88360b999f30812b337f367cbecb35b8c89ec6cc21b23b7de6b90863bfd4a9,,included
+inventory/EXCLUSIONS.json,787,03c3ad24bb8b3cecffe2bbc8d5a5bd1510d58b4fe1bf7899556c00919f5118d9,,included
+inventory/README.md,1225,0eb4f32867b5b31fffb571b5bed45ba4ae6b4d55eb07957e62650411d3228a94,,included
+inventory/origins.json,27141,68035583781dcf530ee40285caad2cdb1bc7f061dba92b0a3841eb013e09b404,,included
+project/cr/outputs/HANDOFF.md,4629,9e724f25eef99e3aa75c80420f042afddbacb72b9b38024614f481345e4f66b4,,included
+project/cr/outputs/INSTALL.md,5391,1fd9572c8a9f4f8ffc3c0c3eda89d98cab549ca10a3d58c2f826f7a9a2b77586,,included
+project/cr/outputs/VALIDATION.md,2440,ce589ae38e72024f6a8780fff3bc0b3f6ed41820a9131cb30f8e7a944626e382,,included
+project/cr/outputs/fullpage/background.js,11678,c7ce53dffac43fc8db0def4701bb7706491035853cda5dcf555623a4ea08d908,,included
+project/cr/outputs/fullpage/capture.js,9257,9fc439416280950f3334b6b0495ea7de692d2b2a97a6dedda968ab5fcd449c22,,included
+project/cr/outputs/fullpage/common.js,2296,a99e3ec3f85cb37f5d148abd91c363297661cd8f0073390aec750e4f1080a6e6,,included
+project/cr/outputs/fullpage/icons/camera.svg,267,e3b5a226e99defec1f2d9139dcdaac398343372c8bcb87f164186387d4ec0023,,included
+project/cr/outputs/fullpage/manifest.json,1178,946c4f041799f70389c439aae2f047c72daf640b6629a47a0c5e8a204d962149,,included
+project/cr/outputs/fullpage/pdf.js,1689,c42ab8135664aae4c87c5280b610419f227d3997a3a71cce77aef83336dc126d,,included
+project/cr/outputs/fullpage/progress.html,1031,89b13f08aaf414920a3564966c07de55caf84d4c483bd92d8a075b9dbe3d38de,,included
+project/cr/outputs/fullpage/progress.js,3011,f096a4adf076c75ecdf1285b89671bb76602635ec95633c779fe2f87355c721c,,included
+project/cr/outputs/fullpage/settings.html,3496,b10831edf22662a975447daa687403b7e93307b46134e57150b17aae26af6fbf,,included
+project/cr/outputs/fullpage/settings.js,1621,bf7fb507b65ea6eff7db2e6be6c99eb09523eb3c1530ef7869ceeebce29bc0bf,,included
+project/cr/outputs/fullpage/sounds/shutter.mp3,21504,5941712f82d92fb711e9b1249e086a9b6ea2d879e87d7803f9f981479f111ef8,,included
+project/cr/outputs/fullpage/style.css,5537,61a9c154bf20976ffa0982668f4986507b891c183f1f2ab6ec101388f40b4e7b,,included
+project/cr/outputs/fullpage-1.3.1.zip,33987,6ab14b134e17e4cd714159ea75b623f815d78747698ca34c6d270618a5b0e13a,,included
+project/cr/outputs/fullpage-1.4.0.zip,36861,83035410adb6c82ef9c9e0e9630c45ff5816c5098325cbdffeb663b852954b2e,,included
+project/cr/work/settings-v1.3.1.png,132168,0c30beb1fcb73c6d2f61d3af10192e8e15234c0faf139a99234ae91d603161c6,,included
+project/cr/work/test-downloads/127.0.0.1 — 2026-09-12T21-23-52-885Z.png,19132,a4fd6082fbe129c9e27a82be39e7fb176b03c5489ff97b6d24a6a12687efbb8f,,included
+project/cr/work/test-downloads/127.0.0.1 — 2026-09-12T21-28-06-982Z.png,19132,a4fd6082fbe129c9e27a82be39e7fb176b03c5489ff97b6d24a6a12687efbb8f,,included
+project/cr/work/test-downloads/127.0.0.1 — 2026-09-12T21-28-51-943Z.png,19132,a4fd6082fbe129c9e27a82be39e7fb176b03c5489ff97b6d24a6a12687efbb8f,,included
+project/cr/work/test-downloads/127.0.0.1 — 2026-09-12T21-35-21-748Z.png,19132,a4fd6082fbe129c9e27a82be39e7fb176b03c5489ff97b6d24a6a12687efbb8f,,included
+project/cr/work/test-downloads/127.0.0.1 — 2026-09-12T21-35-24-391Z.png,19132,a4fd6082fbe129c9e27a82be39e7fb176b03c5489ff97b6d24a6a12687efbb8f,,included
+project/cr/work/test-downloads/127.0.0.1 — 2026-09-14T12-27-20-490Z.png,19747,117b9f8192ecd3272016718e67ec97d51cadf3caac6ff291bf66cec8d465875c,,included
+project/cr/work/test-downloads/127.0.0.1 — 2026-09-14T12-27-22-577Z.jpg,85981,58c0f55ec2784eee3e8d638c71ca8e71ffdee4d590b335550fa4c7979ccacc74,,included
+project/cr/work/test-downloads/127.0.0.1 — 2026-09-14T12-27-24-612Z.pdf,86664,c7d3a64e136df8a6159586321bdbf18528b51e4f19f1e616f7543ac37650186e,,included
+project/cr/work/test-downloads/127.0.0.1 — 2026-09-14T12-27-43-814Z.png,19747,117b9f8192ecd3272016718e67ec97d51cadf3caac6ff291bf66cec8d465875c,,included
+project/cr/work/test-downloads/127.0.0.1 — 2026-09-14T12-27-45-876Z.jpg,85981,58c0f55ec2784eee3e8d638c71ca8e71ffdee4d590b335550fa4c7979ccacc74,,included
+project/cr/work/test-downloads/127.0.0.1 — 2026-09-14T12-27-47-944Z.pdf,86664,c7d3a64e136df8a6159586321bdbf18528b51e4f19f1e616f7543ac37650186e,,included
+project/cr/work/test-downloads/127.0.0.1 — 2026-09-14T12-30-08-145Z.png,19132,a4fd6082fbe129c9e27a82be39e7fb176b03c5489ff97b6d24a6a12687efbb8f,,included
+project/cr/work/test-downloads/127.0.0.1 — screenshot — 2026-09-12T20-13-38-202Z.png,11776,68096832efdd3c8b82a4241cab24882cdb8cf30238a6923cf4542f2ff3458792,,included
+project/cr/work/test-downloads/127.0.0.1 — screenshot — 2026-09-12T20-14-24-816Z.png,11776,68096832efdd3c8b82a4241cab24882cdb8cf30238a6923cf4542f2ff3458792,,included
+project/cr/work/test-downloads/127.0.0.1 — screenshot — 2026-09-12T20-15-05-149Z.png,19132,a4fd6082fbe129c9e27a82be39e7fb176b03c5489ff97b6d24a6a12687efbb8f,,included
+project/cr/work/test-downloads/127.0.0.1 — screenshot — 2026-09-12T20-15-40-468Z.png,19132,a4fd6082fbe129c9e27a82be39e7fb176b03c5489ff97b6d24a6a12687efbb8f,,included
+project/cr/work/test-downloads/127.0.0.1 — screenshot — 2026-09-12T21-02-26-091Z.png,19132,a4fd6082fbe129c9e27a82be39e7fb176b03c5489ff97b6d24a6a12687efbb8f,,included
+project/cr/work/test-downloads/127.0.0.1 — screenshot — 2026-09-12T21-02-29-922Z.png,19132,a4fd6082fbe129c9e27a82be39e7fb176b03c5489ff97b6d24a6a12687efbb8f,,included
+project/cr/work/test-downloads/127.0.0.1 — screenshot — 2026-09-12T21-03-07-688Z.png,19132,a4fd6082fbe129c9e27a82be39e7fb176b03c5489ff97b6d24a6a12687efbb8f,,included
+project/cr/work/test-downloads/127.0.0.1 — screenshot — 2026-09-12T21-03-11-888Z.png,19132,a4fd6082fbe129c9e27a82be39e7fb176b03c5489ff97b6d24a6a12687efbb8f,,included
+project/cr/work/test-downloads/127.0.0.1 — screenshot — 2026-09-12T21-03-15-377Z.png,19132,a4fd6082fbe129c9e27a82be39e7fb176b03c5489ff97b6d24a6a12687efbb8f,,included
+project/cr/work/test-downloads/Capture test — 2026-09-12T19-49-06-213Z.png,21610,ce33f435903eca1073bcbea0ada1612157ab6b821b3e15eee7b1ff6b107825f1,,included
+project/cr/work/test-downloads/Capture test — 2026-09-12T19-49-46-566Z.png,21610,ce33f435903eca1073bcbea0ada1612157ab6b821b3e15eee7b1ff6b107825f1,,included
+project/cr/work/test-downloads/Capture test — 2026-09-12T19-50-41-685Z.png,20318,6c7f79bb1e646bcbfe57b277d036d2e60b6a6c1db718491e77ff731a58dcff64,,included
+project/cr/work/test-downloads/Capture test — 2026-09-12T19-51-41-752Z.png,20318,6c7f79bb1e646bcbfe57b277d036d2e60b6a6c1db718491e77ff731a58dcff64,,included
+project/cr/work/test-downloads/Capture test — 2026-09-12T19-52-48-553Z.png,20318,6c7f79bb1e646bcbfe57b277d036d2e60b6a6c1db718491e77ff731a58dcff64,,included
+project/cr/work/test-downloads/Capture test — 2026-09-12T19-53-54-818Z.png,20318,6c7f79bb1e646bcbfe57b277d036d2e60b6a6c1db718491e77ff731a58dcff64,,included
+project/cr/work/test-downloads/captures/Capture test — 2026-09-12T19-50-46-739Z.jpg,91755,f34ab903949a51d847a4bfc3b79a6d738af771103d228fc5876a739f56278b10,,included
+project/cr/work/test-downloads/captures/Capture test — 2026-09-12T19-54-52-652Z.png,20318,6c7f79bb1e646bcbfe57b277d036d2e60b6a6c1db718491e77ff731a58dcff64,,included
+project/cr/work/test-downloads/captures/Capture test — 2026-09-12T19-54-54-655Z.jpg,91755,f34ab903949a51d847a4bfc3b79a6d738af771103d228fc5876a739f56278b10,,included
+project/cr/work/test-downloads/captures/Capture test — 2026-09-12T19-54-56-743Z.pdf,92444,33afa708a34d03c3a8b98fbb0eec69d1acd32cec0c6fbbdfb718285f1abcf63e,,included
+project/cr/work/test-downloads/forsale.dynadot.com — 2026-09-14T12-26-50-707Z.png,173748,b11b3a685deef58f8ebb112ef56d202827603dd2d0dd9909b9b1957ae02c79c1,,included
+project/cr/work/test-downloads/screenshot — 127.0.0.1 — 2026-09-12T20-15-16-179Z.png,19132,a4fd6082fbe129c9e27a82be39e7fb176b03c5489ff97b6d24a6a12687efbb8f,,included
+project/cr/work/test-downloads/screenshot — 127.0.0.1 — 2026-09-12T20-15-51-516Z.png,19132,a4fd6082fbe129c9e27a82be39e7fb176b03c5489ff97b6d24a6a12687efbb8f,,included
+project/cr/work/tests/dynadot_capture_test.py,3410,2c163a11290f0616ad595839b63b2fa9f8814487fedfea6dddfc38bc5f3a9b9b,,included
+project/cr/work/tests/firefox_test.py,5386,977a1d9119f1abb0dcaf4de0f69c5687b41615a51e5c19ce75c828155d1cb3fb,,included
+project/cr/work/tests/popup_test.py,7314,40a62dd9e173f39cba23a58b326def74e72e31e73b45271a824bc5035a0ddec1,,included
+project/cr/work/tests/preferences_probe.py,3619,94653a24e286b001f8564f41a989ffcc305bc48dbf0ca927b9bb68a60b302ac1,,included
+project/cr/work/tests/progress_states.cjs,1661,4990863f9e6b7578c9d47518cb338bf55e9d1baf8c673cbc46db2019fb201d68,,included
+project/cr/work/tests/sound_toggle_test.py,7919,dec6ab7524fff1bb3ea91864a4ed723891c147ba52ff544c2fb625704079203c,,included
+project/cr/work/tests/sound_v13_test.py,7370,7c9d15736f7d542eb616eccd847b00ecc083282239f1791013fe22154085d622,,included
+project/cr/work/tests/v13_validation.cjs,1421,2d7e1b8b217ab9ea2b480c89eed9318b3054d9530444ee4fae5351ccb8920550,,included
+publishing/ASSET_RIGHTS.md,1064,b236657e5edd7aefa7261b3b46661c945b2bfd18f6f96d5e94e95e55bb5fb1ea,,included
+publishing/PRIVACY_POLICY.md,1850,b9c29d5ebdc16d2b8fb6859d7c5511b50cda5c5c0b29860773e1b21bf7655f1f,,included
+publishing/RELEASE_NOTES.md,748,5a20980cbb93c0c5b423f019bc5b4b78c8564413d3f885377ee3cafad5cd50e9,,included
+publishing/REVIEWER_NOTES.md,1885,69d8d3f04c11f5b16a72ec9028b0bcf72298cb6efb103f700b21962c6fbeac47,,included
+publishing/STORE_LISTING.md,1606,6e2f8c2374729e112c7f5028a053cec3bbd07783900bb5bd20ea40217bb18ca8,,included
+publishing/SUBMISSION.md,2043,6912a0b422bbd1a4a1607375ab0d24fa0e821c57768c942a2f81d84583d39d7e,,included
+references/AGENTS.md,396,2073111822499215803a841f5fc50ea78bc68ea674cce440f4b45b22d1e55d3c,,included
+references/HANDOFF.md,5203,8109c4535ea58023232d59edf5a0f29bb2391d284fba93dd3d1b4df85cc85daa,,included
+scripts/build_requirements_docx.py,4323,e871b8dd66a7303facb37b782eb128c0961d858f38a16bef20c50e92116f9e38,,included
+scripts/verify_handoff.py,689,0ebd20db98723d0925297303eaad94758ed41894fd0fdda542461973e56373bb,,included
+supplemental-docs/README.md,743,915f86a302db622f1a23f724aca9688136e786e34cb51a146f1dc0dfcfbc30f7,,included
+supplemental-docs/workspace/handoff-build/docx-final/01_FUNCTIONAL_REQUIREMENTS.pdf,127265,cceb92ad9756763c7144e11403a6b614a9fbc7b8acf4b9cc85dec0957ba240ca,,included
+supplemental-docs/workspace/handoff-build/docx-qa/01_FUNCTIONAL_REQUIREMENTS.pdf,127273,176f03d3bf20ead2e21873e443d771943947dab83b41de96208f8b1f25a2a4d0,,included
+supplemental-docs/workspace/handoff-build/lint-final.json,374,b6f34a17256cb6ebc27141a18bcfd5126a438082f89fc768959f3b28feb625fe,,included
+workspace-snapshot/fullpage-v1.4.0/HANDOFF.md,4629,9e724f25eef99e3aa75c80420f042afddbacb72b9b38024614f481345e4f66b4,,included
+workspace-snapshot/fullpage-v1.4.0/INSTALL.md,5391,1fd9572c8a9f4f8ffc3c0c3eda89d98cab549ca10a3d58c2f826f7a9a2b77586,,included
+workspace-snapshot/fullpage-v1.4.0/VALIDATION.md,2440,ce589ae38e72024f6a8780fff3bc0b3f6ed41820a9131cb30f8e7a944626e382,,included
+workspace-snapshot/fullpage-v1.4.0/fullpage/background.js,11678,c7ce53dffac43fc8db0def4701bb7706491035853cda5dcf555623a4ea08d908,,included
+workspace-snapshot/fullpage-v1.4.0/fullpage/capture.js,9257,9fc439416280950f3334b6b0495ea7de692d2b2a97a6dedda968ab5fcd449c22,,included
+workspace-snapshot/fullpage-v1.4.0/fullpage/common.js,2296,a99e3ec3f85cb37f5d148abd91c363297661cd8f0073390aec750e4f1080a6e6,,included
+workspace-snapshot/fullpage-v1.4.0/fullpage/icons/camera.svg,267,e3b5a226e99defec1f2d9139dcdaac398343372c8bcb87f164186387d4ec0023,,included
+workspace-snapshot/fullpage-v1.4.0/fullpage/manifest.json,1178,946c4f041799f70389c439aae2f047c72daf640b6629a47a0c5e8a204d962149,,included
+workspace-snapshot/fullpage-v1.4.0/fullpage/pdf.js,1689,c42ab8135664aae4c87c5280b610419f227d3997a3a71cce77aef83336dc126d,,included
+workspace-snapshot/fullpage-v1.4.0/fullpage/progress.html,1031,89b13f08aaf414920a3564966c07de55caf84d4c483bd92d8a075b9dbe3d38de,,included
+workspace-snapshot/fullpage-v1.4.0/fullpage/progress.js,3011,f096a4adf076c75ecdf1285b89671bb76602635ec95633c779fe2f87355c721c,,included
+workspace-snapshot/fullpage-v1.4.0/fullpage/settings.html,3496,b10831edf22662a975447daa687403b7e93307b46134e57150b17aae26af6fbf,,included
+workspace-snapshot/fullpage-v1.4.0/fullpage/settings.js,1621,bf7fb507b65ea6eff7db2e6be6c99eb09523eb3c1530ef7869ceeebce29bc0bf,,included
+workspace-snapshot/fullpage-v1.4.0/fullpage/sounds/shutter.mp3,21504,5941712f82d92fb711e9b1249e086a9b6ea2d879e87d7803f9f981479f111ef8,,included
+workspace-snapshot/fullpage-v1.4.0/fullpage/style.css,5537,61a9c154bf20976ffa0982668f4986507b891c183f1f2ab6ec101388f40b4e7b,,included
+workspace-snapshot/fullpage-v1.4.0/fullpage-1.4.0.zip,36861,83035410adb6c82ef9c9e0e9630c45ff5816c5098325cbdffeb663b852954b2e,,included
+workspace-snapshot/fullpage-v1.4.0/test-results/cross-granted.png,20933,54e60b90bf78fe926e5476b4c02a8fdb3dd3200917d92f9cbf0f0cfd45c5ef3b,,included
+workspace-snapshot/fullpage-v1.4.0/test-results/dynadot.png,194147,a7047347cbdf7142722a805d5bf2f34e0b1c5985dd117b61919645def4a93be4,,included
+workspace-snapshot/fullpage-v1.4.0/test-results/frame.png,28161,228339ded6c3a84fa93afbb32c2556542e91684d5df13b5dc82e4498e6577915,,included
+workspace-snapshot/fullpage-v1.4.0/test-results/lifecycle.json,410,4d835e62f7eef2ac95ae315237ae8f8859148012453a89213e6b7058647280e6,,included
+workspace-snapshot/fullpage-v1.4.0/test-results/lint.json,374,b6f34a17256cb6ebc27141a18bcfd5126a438082f89fc768959f3b28feb625fe,,included
+workspace-snapshot/fullpage-v1.4.0/test-results/nested.png,28200,1d28cf137040ddb4a3b60e92346f40e2c39a7f5cbc099c22d85fd3420f2c6d9a,,included
+workspace-snapshot/fullpage-v1.4.0/test-results/panel.png,20869,9676831ab55e8c34fad731ed15b6be97f4c2cf36d634f43cda58742e99a51a29,,included
+workspace-snapshot/fullpage-v1.4.0/test-results/results.json,7111,44b2ed1f57b578631ae86a909a6f060c3f55d2085b251995c92850a823938660,,included
+workspace-snapshot/fullpage-v1.4.0/test-results/sticky.png,21207,869e9f3cc3261e86849ef6f87034113104b2b95e6509a90dbf795b4be0cfbd01,,included
+workspace-snapshot/fullpage-v1.4.0/test-results/tall-jpeg.jpg,108134,69e2e96183088273114154ec3fdf286549f38c7d902b5e47e853dd56a8fda80f,,included
+workspace-snapshot/fullpage-v1.4.0/test-results/tall-pdf.pdf,108819,6db4f45110d3fb00133efabdeaaa63562c2f0a52919726854c2e84c84c170bd6,,included
+workspace-snapshot/fullpage-v1.4.0/test-results/tall.png,20539,7bafb1409f1cb49963d00c29d1ad03ed9193b5724951009140dc6bb14152f005,,included
+workspace-snapshot/fullpage-v1.4.0/test-results/test.xpi,36861,0337bb9798f03ac475d3e0cc3d1bd3396cca50199d885b04e48b557210d725d8,,included
+workspace-snapshot/fullpage-v1.4.0/test-results/upgrade.json,226,aea1048e3cd9a8831a45c4dd6f88d7b62211526cfda61d922eee3c8a0e47b5ed,,included
+workspace-snapshot/fullpage-v1.4.0/test-results/wide.png,29925,8dabe303efa896be4d70b04c187b503bca2ed350bef9208c3c5d18ea7bcdc694,,included
+workspace-snapshot/fullpage-v1.4.0/tests/lifecycle.py,4308,c4e8177bd2af83a9dbd2464944e09fdaf92e8f6e24f046ec46c2b0aacaade9f6,,included
+workspace-snapshot/fullpage-v1.4.0/tests/marionette.py,1211,f15a2e6db9cfa83334213bed8d6ce46b05cba2a498554dcc2ea83fff74d2cb48,,included
+workspace-snapshot/fullpage-v1.4.0/tests/progress_states.cjs,1653,0ebe040b33354245ac38732ba5e065725d8b86dac92ba2626590a586ffed71b9,,included
+workspace-snapshot/fullpage-v1.4.0/tests/regression.py,7067,74001a0a58de4cd420db4bdbabba7006ad37fcae4ca1422c7bea37ff6edc370c,,included
+workspace-snapshot/fullpage-v1.4.0/tests/settings.cjs,1389,db766327e7103c7572bbde05f6ad1501dcb993339f430c658021cb6f8ecf26db,,included
+workspace-snapshot/fullpage-v1.4.0/tests/upgrade.py,1696,9f889c654904a8e249a97a9c16acbff1b79a7cf6a0a718c638929d4d41da80f1,,included

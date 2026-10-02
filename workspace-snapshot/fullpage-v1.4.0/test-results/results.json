@@ -1,0 +1,342 @@
+[
+  {
+    "page": "dynadot",
+    "state": {
+      "phase": "complete",
+      "title": "Complete",
+      "detail": "Image saved to fullpage-mv3-downloads",
+      "percent": 100,
+      "count": "",
+      "dimensions": "1100 \u00d7 1072 px",
+      "autoClose": "never",
+      "origins": [],
+      "busy": false
+    },
+    "restored": {
+      "y": 0,
+      "style": null,
+      "panel": null,
+      "height": 635
+    }
+  },
+  {
+    "page": "/nested",
+    "state": {
+      "phase": "complete",
+      "title": "Complete",
+      "detail": "Image saved to fullpage-mv3-downloads",
+      "percent": 100,
+      "count": "",
+      "dimensions": "1100 \u00d7 2852 px",
+      "autoClose": "never",
+      "origins": [],
+      "busy": false
+    },
+    "restored": {
+      "y": 0,
+      "style": null,
+      "panel": null,
+      "height": 635
+    }
+  },
+  {
+    "page": "/wide",
+    "state": {
+      "phase": "complete",
+      "title": "Complete",
+      "detail": "Image saved to fullpage-mv3-downloads",
+      "percent": 100,
+      "count": "",
+      "dimensions": "1900 \u00d7 2700 px",
+      "autoClose": "never",
+      "origins": [],
+      "busy": false
+    },
+    "restored": {
+      "y": 110,
+      "style": null,
+      "panel": null,
+      "height": 2700
+    }
+  },
+  {
+    "page": "/cross",
+    "state": {
+      "phase": "complete",
+      "title": "Complete",
+      "detail": "Image saved to fullpage-mv3-downloads",
+      "percent": 100,
+      "count": "",
+      "dimensions": "1100 \u00d7 2746 px",
+      "autoClose": "never",
+      "origins": [],
+      "busy": false
+    },
+    "restored": {
+      "y": 0,
+      "style": null,
+      "panel": null,
+      "height": 635
+    }
+  },
+  {
+    "page": "/tall",
+    "state": {
+      "phase": "complete",
+      "title": "Complete",
+      "detail": "Image saved to fullpage-mv3-downloads",
+      "percent": 100,
+      "count": "",
+      "dimensions": "1100 \u00d7 2700 px",
+      "autoClose": "never",
+      "origins": [],
+      "busy": false
+    },
+    "restored": {
+      "y": 110,
+      "style": null,
+      "panel": null,
+      "height": 2700
+    }
+  },
+  {
+    "page": "/tall:pdf",
+    "state": {
+      "phase": "complete",
+      "title": "Complete",
+      "detail": "PDF saved to fullpage-mv3-downloads",
+      "percent": 100,
+      "count": "",
+      "dimensions": "1100 \u00d7 2700 px",
+      "autoClose": "never",
+      "origins": [],
+      "busy": false
+    },
+    "restored": {
+      "y": 110,
+      "style": null,
+      "panel": null,
+      "height": 2700
+    }
+  },
+  {
+    "page": "/tall",
+    "state": {
+      "phase": "complete",
+      "title": "Complete",
+      "detail": "Image saved to fullpage-mv3-downloads",
+      "percent": 100,
+      "count": "",
+      "dimensions": "1100 \u00d7 2700 px",
+      "autoClose": "never",
+      "origins": [],
+      "busy": false
+    },
+    "restored": {
+      "y": 110,
+      "style": null,
+      "panel": null,
+      "height": 2700
+    }
+  },
+  {
+    "page": "/sticky",
+    "state": {
+      "phase": "complete",
+      "title": "Complete",
+      "detail": "Image saved to fullpage-mv3-downloads",
+      "percent": 100,
+      "count": "",
+      "dimensions": "1100 \u00d7 2740 px",
+      "autoClose": "never",
+      "origins": [],
+      "busy": false
+    },
+    "restored": {
+      "y": 110,
+      "style": null,
+      "panel": null,
+      "height": 2740
+    }
+  },
+  {
+    "page": "/panel",
+    "state": {
+      "phase": "complete",
+      "title": "Complete",
+      "detail": "Image saved to fullpage-mv3-downloads",
+      "percent": 100,
+      "count": "",
+      "dimensions": "1100 \u00d7 2740 px",
+      "autoClose": "never",
+      "origins": [],
+      "busy": false
+    },
+    "restored": {
+      "y": 0,
+      "style": null,
+      "panel": 90,
+      "height": 635
+    }
+  },
+  {
+    "page": "/frame",
+    "state": {
+      "phase": "complete",
+      "title": "Complete",
+      "detail": "Image saved to fullpage-mv3-downloads",
+      "percent": 100,
+      "count": "",
+      "dimensions": "1100 \u00d7 2846 px",
+      "autoClose": "never",
+      "origins": [],
+      "busy": false
+    },
+    "restored": {
+      "y": 0,
+      "style": null,
+      "panel": null,
+      "height": 635
+    }
+  },
+  {
+    "page": "/nested",
+    "state": {
+      "phase": "complete",
+      "title": "Complete",
+      "detail": "Image saved to fullpage-mv3-downloads",
+      "percent": 100,
+      "count": "",
+      "dimensions": "1100 \u00d7 2852 px",
+      "autoClose": "never",
+      "origins": [],
+      "busy": false
+    },
+    "restored": {
+      "y": 0,
+      "style": null,
+      "panel": null,
+      "height": 635
+    }
+  },
+  {
+    "page": "/wide",
+    "state": {
+      "phase": "complete",
+      "title": "Complete",
+      "detail": "Image saved to fullpage-mv3-downloads",
+      "percent": 100,
+      "count": "",
+      "dimensions": "1900 \u00d7 2700 px",
+      "autoClose": "never",
+      "origins": [],
+      "busy": false
+    },
+    "restored": {
+      "y": 110,
+      "style": null,
+      "panel": null,
+      "height": 2700
+    }
+  },
+  {
+    "page": "/cross",
+    "state": {
+      "phase": "complete",
+      "title": "Complete",
+      "detail": "Image saved to fullpage-mv3-downloads",
+      "percent": 100,
+      "count": "",
+      "dimensions": "1100 \u00d7 2746 px",
+      "autoClose": "never",
+      "origins": [],
+      "busy": false
+    },
+    "restored": {
+      "y": 0,
+      "style": null,
+      "panel": null,
+      "height": 635
+    }
+  },
+  {
+    "page": "dynadot",
+    "state": {
+      "phase": "complete",
+      "title": "Complete",
+      "detail": "Image saved to fullpage-mv3-downloads",
+      "percent": 100,
+      "count": "",
+      "dimensions": "1100 \u00d7 1072 px",
+      "autoClose": "never",
+      "origins": [],
+      "busy": false
+    },
+    "restored": {
+      "y": 0,
+      "style": null,
+      "panel": null,
+      "height": 635
+    }
+  },
+  {
+    "page": "/nested",
+    "state": {
+      "phase": "complete",
+      "title": "Complete",
+      "detail": "Image saved to fullpage-mv3-downloads",
+      "percent": 100,
+      "count": "",
+      "dimensions": "1100 \u00d7 2852 px",
+      "autoClose": "never",
+      "origins": [],
+      "busy": false
+    },
+    "restored": {
+      "y": 0,
+      "style": null,
+      "panel": null,
+      "height": 635
+    }
+  },
+  {
+    "page": "/cross",
+    "state": {
+      "phase": "complete",
+      "title": "Complete",
+      "detail": "Image saved to fullpage-mv3-downloads",
+      "percent": 100,
+      "count": "",
+      "dimensions": "1100 \u00d7 2746 px",
+      "autoClose": "never",
+      "origins": [],
+      "busy": false
+    },
+    "restored": {
+      "y": 0,
+      "style": null,
+      "panel": null,
+      "height": 635
+    }
+  },
+  {
+    "page": "dynadot",
+    "state": {
+      "phase": "complete",
+      "title": "Complete",
+      "detail": "Image saved to fullpage-mv3-downloads",
+      "percent": 100,
+      "count": "",
+      "dimensions": "1100 \u00d7 1072 px",
+      "autoClose": "never",
+      "origins": [],
+      "busy": false
+    },
+    "restored": {
+      "y": 0,
+      "style": null,
+      "panel": null,
+      "height": 635
+    }
+  }
+]

@@ -1,0 +1,17 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+vm.runInThisContext(fs.readFileSync('outputs/fullpage/common.js','utf8'));
+const s=Fullpage.normalize();
+assert.equal(s.autoClose,'never');assert.equal(s.ask,false);assert.equal(s.format,'png');assert.equal(s.nameParts,'website');
+assert.ok(!('folder' in Fullpage.normalize({folder:'old/captures'})));
+const name=Fullpage.filename('Article title',s,new Date('2026-09-13T00:00:00Z'),'https://www.example.com/article');
+assert.equal(name,'example.com — 2026-09-13T00-00-00-000Z.png');
+assert.ok(!Fullpage.filename('Page',{...s,folder:'old/captures'}).includes('/'));
+const html=fs.readFileSync('outputs/fullpage/settings.html','utf8');
+assert.ok(!html.includes('chooseFolder'));assert.ok(!html.includes('folderGuide'));assert.ok(!html.includes('for="folder"'));
+assert.ok(html.includes('Ask where to save images'));
+assert.ok(html.includes('Choose which file type to save the image as.'));
+assert.ok(html.includes('Choose whether the domain or “screenshot” comes first in the file name.'));
+const manifest=JSON.parse(fs.readFileSync('outputs/fullpage/manifest.json'));
+assert.deepEqual(manifest.permissions,['activeTab','downloads','storage','menus','scripting']);
+assert.ok(fs.statSync('outputs/fullpage/sounds/shutter.mp3').size > 0);
+console.log('Defaults, removed folder setting, exact wording, filename, permissions, and bundled sound passed.');

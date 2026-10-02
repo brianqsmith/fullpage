@@ -1,0 +1,12 @@
+node_modules/
+.venv/
+.env
+.env.*
+!*.example
+test-config.json
+test-profile/
+test-downloads/
+test-results/
+__pycache__/
+*.pyc
+dist/

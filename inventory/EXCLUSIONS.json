@@ -1,0 +1,22 @@
+[
+  {
+    "original_path": "/Users/nil/Documents/Codex/2026-09-12/cr/.DS_Store",
+    "reason": "Operating-system metadata or compiled cache",
+    "file_count": 1
+  },
+  {
+    "original_path": "/Users/nil/Documents/Codex/2026-09-12/cr/work/firefox-profile",
+    "reason": "Browser profile contains machine-specific browsing/session state; generate a clean test profile",
+    "file_count": 460
+  },
+  {
+    "original_path": "/Users/nil/Documents/Codex/2026-09-12/cr/outputs/.DS_Store",
+    "reason": "Operating-system metadata or compiled cache",
+    "file_count": 1
+  },
+  {
+    "original_path": "/Users/nil/.codex/.chatgpt-projects/g-p-6aa7eb5f67b48191960fe554917fa2a0/fullpage-v1.4.0/tests/__pycache__",
+    "reason": "Generated cache or dependency directory",
+    "file_count": 1
+  }
+]
